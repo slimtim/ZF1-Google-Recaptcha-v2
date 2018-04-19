@@ -1,0 +1,26 @@
+{
+    "name": "xorock/zf1-google-recaptcha-v2",
+    "description": "Google ReCaptcha v2 for Zend Framework 1",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zend",
+        "zf1",
+        "captcha",
+        "recaptcha"
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "classmap": [
+            "library/Ghost/Form/Decorator/Captcha/ReCaptcha2.php",
+            "library/Ghost/Captcha/ReCaptcha2.php",
+            "library/Ghost/Exception.php",
+            "library/Ghost/Service/ReCaptcha2.php",
+            "library/Ghost/Service/ReCaptcha2/Exception.php",
+            "library/Ghost/Service/ReCaptcha2/Response.php",
+            "library/Ghost/Service/Exception.php"
+        ]
+    }
+}
